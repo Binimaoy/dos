@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    text-shadow: 5px 5px 5px gray; 
+}
+
+form {
+    max-width: 400px; 
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow:  0 5px 10px rgba(0, 0, 0, 0.8); 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    color: #555; 
+}
+
+input, select {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s; 
+}
+
+input:focus, select:focus {
+    border-color: lightgoldenrodyellow; 
+    outline: none; 
+}
+
+
+input[type="submit"],   
+input[type="reset"],
+input[type="checkbox"] {
+    background-color: #3e4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+    background-color: #b2b2b2;
+}
